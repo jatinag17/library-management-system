@@ -40,12 +40,12 @@
                 Admin
             </a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Logout</a></li>
             </ul>
         </li>
     
@@ -170,6 +170,7 @@
 </div>
 </div>
 
+
     <!--Offcanvas  end-->
 
 
@@ -284,10 +285,106 @@
                 </table>
                 </div>
                 <div class="tab-pane fade" id="recent-loans-pane" role="tabpanel" aria-labelledby="recent-loans" tabindex="0">...
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">BookName</th>
+                            <th scope="col">StudentName</th>
+                            <th scope="col">LoanDate</th>
+                            <th scope="col">DueDate</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Indian Art and Culture</td>
+                            <td>Jai Sharma</td>
+                            <td>26-05-2023</td>
+                            <td>26-06-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                            <!-- <td>Rakesh Saini</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Certificate Physical Geography</td>
+                            <td>Rohan Suthkar</td>
+                            <td>26-05-2023</td>
+                            <td>31-05-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                            <!-- <td>GATE</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Indian Economy by Nitin Sighania</td>
+                            <td>Nitin Saini</td>
+                            <td>20-05-2023</td>
+                            <td>29-05-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Tata McGraw Hill CSAT Manual</td>
+                            <td>Joy</td>
+                            <td>20-05-2023</td>
+                            <td>25-05-2023</td>
+                            <td><span class="badge text-bg-warning">Returned</span></td>
+                        </tr>
+                    </tbody>
+                </table>
                 </div>
                 <div class="tab-pane fade" id="recent-subscriptions-pane" role="tabpanel" aria-labelledby="recent-subscriptions" tabindex="0">...
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">StudentName</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">StartDate</th>
+                            <th scope="col">EndDate</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Jai Kaushik</td>
+                            <td>500</td>
+                            <td>26-05-2023</td>
+                            <td>26-06-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                            <!-- <td>Rakesh Saini</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Narayan Soni</td>
+                            <td>750</td>
+                            <td>20-05-2023</td>
+                            <td>19-08-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                            <!-- <td>GATE</td> -->
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Hemlata Khatri</td>
+                            <td>1000</td>
+                            <td>10-05-2023</td>
+                            <td>09-11-2023</td>
+                            <td><span class="badge text-bg-success">Active</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Rakesh</td>
+                            <td>500</td>
+                            <td>20-04-2023</td>
+                            <td>19-05-2023</td>
+                            <td><span class="badge text-bg-danger">Expired</span></td>
+                        </tr>
+                    </tbody>
+                </table>
                 </div>
-                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
                 </div>
             </div></div>
          </div>
