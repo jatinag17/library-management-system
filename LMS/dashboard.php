@@ -7,7 +7,7 @@
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="./assets/js/7d9b19adfc.js" crossorigin="anonymous"></script>
-    <title>Library</title>
+    <title>Dashboard | Library</title>
 </head>
 
 <body>
