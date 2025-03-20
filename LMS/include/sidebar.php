@@ -28,10 +28,10 @@
                     <div>
                         <ul class="navbar-nav ps-3">
                             <li>
-                                <a href="./add-book.php" class="nav-link"><i class="far fa-plus me-2"></i>Add New</a>
+                                <a href="./books/add.php" class="nav-link"><i class="far fa-plus me-2"></i>Add New</a>
                             </li>
                             <li>
-                                <a href="./manage-books.php" class="nav-link"><i class="fa-solid fa-bars me-2"></i>Manage All</a>
+                                <a href="./books" class="nav-link"><i class="fa-solid fa-bars me-2"></i>Manage All</a>
                             </li>
                         </ul>
                     </div>
